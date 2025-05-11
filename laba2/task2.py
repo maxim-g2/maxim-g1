@@ -39,7 +39,7 @@ while True:
       "6 - Выход\n")))
     if i == 1:
         print(Trains.get_info())
-    if i == 2:
+    if i == 2:  
         Trains.change_destination(input("Введите новый пункт назначения: "))
         print(f"Новый пункт назначения: {Trains.destination}")
     if i == 3:
