@@ -20,7 +20,6 @@ class Calculation:
     def get_last_symbol(self):
         if len(self.calculation_line) == 0:
             return ""
-
         return self.calculation_line[-1]
 
 calculation = Calculation()
